@@ -7,16 +7,16 @@ MOSDNS_BIN="/usr/local/bin"
 MOSDNS_TMP="/tmp/mosdns"
 
 # 定义 MosDNS , v2dat 下载链接
-MOSDNS_URL="https://gh.cooluc.com/https://github.com/IrineSistiana/mosdns/releases/download/v5.3.1/mosdns-linux-amd64.zip"
-V2DAT_URL="https://gh.cooluc.com/https://github.com/ikreva/v2dat/releases/download/0.1/v2dat-linux-amd64.zip"
+MOSDNS_URL="https://gh-proxy.com/https://github.com/IrineSistiana/mosdns/releases/download/v5.3.1/mosdns-linux-amd64.zip"
+V2DAT_URL="https://gh-proxy.com/https://github.com/ikreva/v2dat/releases/download/0.1/v2dat-linux-amd64.zip"
 
 # 定义数据库下载链接
-GEOSITE_URL="https://gh.cooluc.com/https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/geosite.dat"
-GEOIP_URL="https://gh.cooluc.com/https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/geoip.dat"
+GEOSITE_URL="https://gh-proxy.com/https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/geosite.dat"
+GEOIP_URL="https://gh-proxy.com/https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/geoip.dat"
 ANTI_AD_URL="https://anti-ad.net/domains.txt"
 MOSDNS_ADRULES_URL="https://adrules.top/mosdns_adrules.txt"
-CLOUDFLARE_CIDR_URL="https://gh.cooluc.com/https://raw.githubusercontent.com/sbwml/luci-app-mosdns/v5/luci-app-mosdns/root/etc/mosdns/rule/cloudflare-cidr.txt"
-LOCAL_PTR_URL="https://gh.cooluc.com/https://raw.githubusercontent.com/sbwml/luci-app-mosdns/v5/luci-app-mosdns/root/etc/mosdns/rule/local-ptr.txt"
+CLOUDFLARE_CIDR_URL="https://gh-proxy.com/https://raw.githubusercontent.com/sbwml/luci-app-mosdns/v5/luci-app-mosdns/root/etc/mosdns/rule/cloudflare-cidr.txt"
+LOCAL_PTR_URL="https://gh-proxy.com/https://raw.githubusercontent.com/sbwml/luci-app-mosdns/v5/luci-app-mosdns/root/etc/mosdns/rule/local-ptr.txt"
 
 # 下载文件方法
 download_file() {
@@ -598,8 +598,8 @@ GEOSITE_URL="https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/ge
 GEOIP_URL="https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat"
 ANTI_AD_URL="https://anti-ad.net/domains.txt"
 MOSDNS_ADRULES_URL="https://adrules.top/mosdns_adrules.txt"
-CLOUDFLARE_CIDR_URL="https://gh.cooluc.com/https://raw.githubusercontent.com/sbwml/luci-app-mosdns/v5/luci-app-mosdns/root/etc/mosdns/rule/cloudflare-cidr.txt"
-LOCAL_PTR_URL="https://gh.cooluc.com/https://raw.githubusercontent.com/sbwml/luci-app-mosdns/v5/luci-app-mosdns/root/etc/mosdns/rule/local-ptr.txt"
+CLOUDFLARE_CIDR_URL="https://gh-proxy.com/https://raw.githubusercontent.com/sbwml/luci-app-mosdns/v5/luci-app-mosdns/root/etc/mosdns/rule/cloudflare-cidr.txt"
+LOCAL_PTR_URL="https://gh-proxy.com/https://raw.githubusercontent.com/sbwml/luci-app-mosdns/v5/luci-app-mosdns/root/etc/mosdns/rule/local-ptr.txt"
 
 download_file() {
     local dest=$1
