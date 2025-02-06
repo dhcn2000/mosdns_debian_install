@@ -4,3 +4,8 @@
  mosdns_debian.sh -i or instatll for install
  
  mosdns_debian.sh -u or uninstall for uninstall
+
+$ git clone [https://github.com/wikeolf/light-mosdns.git](https://github.com/dhcn2000/mosdns_debian_install.git)
+$ cd mosdns_debian_install
+$ chmod +x mosdns_debian.sh
+$ ./mosdns_debian.sh install
