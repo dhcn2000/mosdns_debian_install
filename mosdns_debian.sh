@@ -1,6 +1,10 @@
 #!/bin/bash
 set -e
 
+echo "下载依赖……"
+apt update
+apt install wget git unzip pip -y
+
 # 定义文件路径
 MOSDNS_CONFIG="/etc/mosdns"
 MOSDNS_BIN="/usr/local/bin"
