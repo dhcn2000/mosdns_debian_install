@@ -589,7 +589,7 @@ cat > $MOSDNS_BIN/update_geodata.sh << 'EOF'
 set -e
 
 # 定义文件路径
-MOSDNS_CONFIG="/usr/local/etc/mosdns"
+MOSDNS_CONFIG="/etc/mosdns"
 MOSDNS_BIN="/usr/local/bin"
 MOSDNS_TMP="/tmp/mosdns"
 
